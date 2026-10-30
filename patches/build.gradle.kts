@@ -4,8 +4,9 @@ patches {
     about {
         name = "ES File Explorer Optimized Suite"
         description = "Unlocks Lifetime VIP, blocks all ads, disables telemetry & tracking, and strips bloatware for ultra-lightweight performance."
-        source = "https://github.com/rushiranpise/morphe-patches"
-        author = "Antigravity Morphe Engineer"
+        source = "https://github.com/azkiabenington/es-file-explorer-morphe-patches"
+        author = "azkiabenington"
+        contact = "https://github.com/azkiabenington"
         website = "https://morphe.software"
         license = "GPLv3"
     }
@@ -16,4 +17,3 @@ kotlin {
         freeCompilerArgs.add("-Xcontext-parameters")
     }
 }
-
