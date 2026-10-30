@@ -37,6 +37,7 @@ jobs:
         run: |
           chmod +x gradlew
           ./gradlew :patches:buildAndroid :patches:build --no-daemon
+          cp patches/build/libs/patches-*.mpp patches/build/libs/patches.mpp || true
 
       - name: Publish GitHub Release
         if: startsWith(github.ref, 'refs/tags/v') || github.event_name == 'workflow_dispatch'
@@ -44,4 +45,6 @@ jobs:
         with:
           files: |
             patches/build/libs/*.mpp
+            patches-bundle.json
+            patches-list.json
           generate_release_notes: true
