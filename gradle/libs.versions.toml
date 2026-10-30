@@ -5,3 +5,4 @@ gson = "2.14.0"
 
 [libraries]
 gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+

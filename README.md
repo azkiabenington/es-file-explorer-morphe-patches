@@ -47,3 +47,4 @@ Generated `.mpp` bundle will be located at:
 
 ## 📜 License
 Licensed under [GPLv3](LICENSE).
+

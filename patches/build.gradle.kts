@@ -1,4 +1,5 @@
 group = "app.morphe.patches.esexplorer"
+version = "1.0.0"
 
 patches {
     about {
